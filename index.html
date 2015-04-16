@@ -2,16 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet" type="text/css">
+  <link href="styles/main.css" rel="stylesheet" type="text/css">
   <title>Daniel Edwards</title>
 </head>
 <body>
-  <ul class="nav">
-    <li>Home</li>
-    <li>About</li>
-    <li>Work</li>
-    <li>Blog</li>
-    <li>Contact</li>
-  </ul>
+  <div id="fullpage">
+    <div class="section" id="home">
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li>|</li>
+        <li><a href="#about">About</a></li>
+        <li>|</li>
+        <li><a href="#work">Work</a></li>
+        <li>|</li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="headings">
+        <h1 class="name-heading">Daniel C. Edwards</h1>
+        <h3 class="job-heading">Front-End Developer</h3>
+        <h3>cdaniel.edwards@gmail.com | 864.593.1762</h3>
+      </div>
+    </div>
+    <div class="section" id="about">
+      <a class="arrow-wrap" href="#about">
+      <span class="arrow"></span>
+        <!--<span class="hint">scroll</span>-->
+      </a>
+      <div class="about-text">
+        <h2 class="about-heading">About Myself:</h2>
+        <img src="images/me.png">
+        <p class="about-paragraph">I'm a front-end web developer who recently graduated from the Iron Yard. I love tackling new projects and working with others to come to a solution to a problem. My skills include html, css, sass, js, ember.js, backbone.js, git, github and more. I love the outdoors, hiking, long bike rides, road trips, craft beer and porch sitting on a warm summer night. Contact me for more info or with opportunities!</p>
+      </div>
+    </div>
+    <div class="section" id="work">
+      Here is a section where my work goes.
+    </div>
+    <div class="section" id="blog">
+      Section where my blog goes.
+    </div>
+    <div class="section" id="contact">
+      Section where my detailed contact info goes.
+    </div>
+  </div>
 
 </body>
 </html>
